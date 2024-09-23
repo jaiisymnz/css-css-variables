@@ -1,7 +1,22 @@
+:root {
+  --Branding-Color: #ff7f50;
+  --Secondary-Color: cornsilk;
+  --Highlight-Color: #d2691e;
+  --Muted-Color: #a9a9a9;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-/* Start coding here */
+.introduction {
+  color: var(--Branding-Color);
+  padding: 20px;
+}
+
+.introduction h1 {
+  color: var(--Branding-Color);
+  font-size: 100px;
+}
